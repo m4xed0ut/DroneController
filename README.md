@@ -11,7 +11,7 @@ Right Stick:
 - Y axis: Pitch
 - X axis: Roll
 # Instructions
-- Add your drone model to the scene and attach a rigidbody component, then change its mass to 1 and set it to Interpolate and set Collision Detection to Continuous,
+- Add your drone model to the scene and attach a rigidbody component, then change its mass to 1, set it to Interpolate and set Collision Detection to Continuous,
 
 - Add a Cube child object to your model and name it TargetUp, make sure its Box Collider has Is Trigger checked and place it above your drone model,
 
