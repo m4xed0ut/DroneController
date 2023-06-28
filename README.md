@@ -13,7 +13,7 @@ Right Stick:
 # Instructions
 - Add your drone model to the scene and attach a rigidbody component, then change its mass to 1, set it to Interpolate and set Collision Detection to Continuous,
 
-- Add a Cube child object to your model and name it TargetUp, make sure its Box Collider has Is Trigger checked and place it above your drone model,
+- Add an empty child object to your model and name it TargetUp
 
 - Attach the DroneController script to the parent object and assign the parent object to the script along with the TargetUp object,
 
