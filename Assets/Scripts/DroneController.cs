@@ -11,7 +11,7 @@ public class DroneController : MonoBehaviour
     private float fallSpeed = 5; 
     public Transform targetUp;
 
-    void Update()
+    void FixedUpdate()
     {
         Throttle();
         Pitch();
